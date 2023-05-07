@@ -1,0 +1,36 @@
+.container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 1000px) {
+   .container {
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+@media (max-width: 800px) {
+   .container {
+      grid-template-columns: repeat(1, 1fr);
+   }
+}
+
+.cart {
+   width: 100%;
+   color: rgba(0, 0, 0, 0.85);
+   font-size: 14px;
+   font-variant: tabular-nums;
+   line-height: 1.5715;
+   list-style: none;
+   font-feature-settings: 'tnum', 'tnum';
+   position: relative;
+   background: #fff;
+   border-radius: 5px;
+   padding: 2rem;
+   height: 100%;
+}
+
+.logo {
+   overflow: hidden;
+   border-radius: 50%;
+}
