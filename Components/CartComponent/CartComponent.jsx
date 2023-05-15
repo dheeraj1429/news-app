@@ -51,9 +51,9 @@ function CartComponent({ data }) {
                         </div>
                         <div>
                            <p>
-                              {dayjs(el?.datePublished).format(
+                              {/* {dayjs(el?.datePublished).format(
                                  'DD MMM YY h:m:s A'
-                              )}
+                              )} */}
                            </p>
                         </div>
                      </div>
